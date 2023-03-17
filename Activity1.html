@@ -1,0 +1,99 @@
+<!DOCTYPE>
+
+<html>
+    <head>
+        <title>ACTIVITY 1</title>
+        
+        <style>
+            /* this contains the format of the whole page */
+            .wholepage{
+                background-image: url(https://static.vecteezy.com/system/resources/previews/003/557/256/original/abstract-blue-and-orange-wave-business-background-free-vector.jpg);
+                margin: 0%;
+            }
+            /* this area contains the header and navigation area */
+            .topbar{
+                background-color: rgb(3, 3, 54);
+                height: 30px;
+                display: flex;
+                align-items: center;
+            }
+            div.leftpane{
+                width: 40%;
+                text-align: center;
+                color: white;
+                margin-top: 5px;
+            }
+            div.midpane{
+                width: 40%;
+                text-align: center;
+                color: white;
+                margin-top: 5px;
+             } 
+            div.rightpane{
+                width: 40%;
+                text-align: center;
+                color: white;
+                margin-top: 17px;
+            }
+            /* this area contains the content area */
+            .contentarea{
+                display: flex;
+            }
+            .leftcontent{
+                width: 25%;
+                margin: auto;
+                border: 2px solid black;
+                height: 95vh;
+            }
+            .midcontent{
+                width: 25%;
+                margin: auto;
+                border: 2px solid black;
+                height: 95vh;
+            }
+            .rightcontent{
+                width: 25%;
+                margin: auto;
+                border: 2px solid black;
+                height: 95vh;
+            }
+            p{
+                font-size: 12px;
+                font-weight: bold;
+            }
+            button{
+                margin: auto;
+            }
+        </style>
+    </head>
+
+    <body class="wholepage">
+        <div class="topbar">
+            <div class="leftpane">ONLINE LIBRARY</div>
+            <div class="midpane">Your Online Book Library</div>
+            <div class="rightpane">
+                <form action="">
+                    <label for="search"></label>
+                    <input type="text" id="search" name="search">
+                    <button>SEARCH</button>
+                </form>
+            </div>
+        </div>
+        <div class="contentarea">
+            <div class="leftcontent">
+                <img src="richdadfront.jpg" width="100%" height="80%">
+                <p>TITLE: RICH DAD POOR DAD</p>
+                <p>AUTHOR: ROBERT KIYOSAKI</p>
+                <p>YEAR PUBLISHED: APRIL 1, 2000</p>
+                <button>ADD TO CART</button>
+                <a href="Order Form Page.html"><button>CHECK OUT</button></a>
+            </div>
+            <div class="midcontent">
+                <img src="richdadmid.jpg" width="100%" height="100%">
+            </div>
+            <div class="rightcontent">
+                <img src="richdadback.jpg" width="100%" height="100%">
+            </div>
+        </div>
+    </body>
+</html>

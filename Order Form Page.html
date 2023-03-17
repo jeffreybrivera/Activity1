@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Form Page</title>
+
+        <style>
+            .wholepage{
+                background-image: url(https://static.vecteezy.com/system/resources/previews/003/557/256/original/abstract-blue-and-orange-wave-business-background-free-vector.jpg);
+                background-repeat: no-repeat;
+                margin: 0%;
+            }
+            .topbar{
+                background-color: rgb(3, 3, 54);
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            div.leftpane{
+                width: 7%;
+                text-align: center;
+                color: white;
+                margin-top: 5px;
+            }
+            div.midpane{
+                width: 7%;
+                text-align: center;
+                color: white;
+                margin-top: 5px;
+             } 
+            div.rightpane{
+                width: 10%;
+                text-align: center;
+                color: white;
+                margin-top: 5px;
+            }
+            .orderbox{
+                height: 95vh;
+                /* border: 1px solid black; */
+                width: 70%;
+                margin: auto;
+                background-color: white;
+            }
+            .forms {
+                padding-top: 1px;
+                padding-left: 10px;
+            }
+            .info1{
+                display: flex;
+                margin-bottom: 15px;
+                /* justify-content: space-between; */
+            }
+            .info2{
+                display: flex;
+                margin-top: 20px;
+            }
+            .info3{
+                display: flex;
+                margin-top: 20px;
+            }
+            .info4{
+                display: flex;
+                margin-top: 20px;
+            }
+            .button{
+                margin-top: 20px;
+            }
+            div>p{
+                margin: 0;
+            }
+            h3{
+                margin-top: 30px;
+                margin-bottom: 10px;
+            } 
+        </style>
+    </head>
+    <body class="wholepage">
+        <div class="topbar">
+            <div class="leftpane">HOME</div>
+            <div class="midpane">BESTSELLERS</div>
+            <div class="rightpane">ABOUT US</div>
+        </div>
+        <div class="orderbox">
+            <div class="forms">
+                <form action="" method="">
+                    
+                    <h3>Billing Address</h3>
+                    <div class="info1">
+                        <div class="firstname">
+                            <label for="firstname">First Name</label><br/>
+                            <input type="text" id="firstname" name="first_name" size="20">
+                        </div>
+                        <div class="lastname">
+                            <label for="lastname">Last Name</label><br/>
+                            <input type="text" id="lastname" name="last_name" size="20">
+                        </div>
+                        <div class="contact">
+                            <label for="contact">Contact Number</label><br/>
+                            <input type="number" id="contact" name="contact_no" maxlength="11">
+                        </div>
+                    </div>
+
+                        <label for="address">Address</label><br/>
+                        <input type="text" id="address" name="address" size="81"><br/><br/>
+                        <label for="address">Address 2 (Optional)</label><br/>
+                        <input type="text" id="address" name="address" size="81">
+                    
+                    <div class="info2">
+                        <div class="country">
+                            <p>Country</p>
+                            <select name="country" id="country">
+                                <option value="philippines">Philippines</option>
+                                <option value="malaysia">Malaysia</option>
+                                <option value="canada">Canada</option>
+                            </select>
+                        </div>
+                        <div class="city">
+                            <p>City</p>
+                            <select name="city" id="city">
+                                <option value="cebu">Cebu</option>
+                                <option value="mandaue">Mandaue</option>
+                                <option value="talisay">Talisay</option>
+                            </select>
+                        </div>
+                        <div class="zip">
+                            <label for="zip">Zip Code</label><br/>
+                            <input type="number" id="zip" name="zip">
+                        </div>
+                    </div>
+                    
+                    <h3>PAYMENT</h3>
+                    <input type="radio" id="visa" name="cards" value="visa">
+                    <label for="visa">Visa</label><br/>
+                    <input type="radio" id="mastercard" name="cards" value="mastercard">
+                    <label for="mastercard">Mastercard</label><br/>
+                    <input type="radio" id="amexp" name="cards" value="amexp">
+                    <label for="amexp">American Express</label>
+                    
+                    <div class="info3">
+                        <div>
+                            <label for="cardname">Name on card</label><br/>
+                            <input type="text" id="cardname" name="card_name" size="20">
+                        </div>
+                        <div>
+                            <label for="cardnum">Credit card number</label><br/>
+                            <input type="number" id="cardnum" name="card_num">
+                        </div>
+                    </div>
+
+                    <div class="info4">
+                        <div>
+                            <label for="expiration">Expiration</label><br/>
+                            <input type="date" id="expiration" name="exp_date" size="20">
+                        </div>
+                        <div>
+                            <label for="cvv">CVV</label><br/>
+                            <input type="number" id="cvv" name="cvv">
+                        </div>
+                    </div>
+    
+                </form>
+
+                <div class="button">
+                    <button>BACK</button>
+                    <a href="Activity1.html"><button>CONTINUE</button></a>
+                </div>
+                
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </body>
+
+</html>
